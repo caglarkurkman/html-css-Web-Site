@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Restoran</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+
+<body style="min-height: 100vh;">
+
+    <!-- HEADER -->
+    <nav id="top-bar">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto justify-content-center">
+                <li class="nav-item"><a href="#" class="nav-link  text-white px-2 active d-flex" aria-current="page">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone me-2"
+                            width="21" height="21" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        </svg>
+                        BİZİ ARA: +90 555 555 5555
+                    </a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link text-white px-2 d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin me-2"
+                            width="21" height="21" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="12" cy="11" r="3" />
+                            <path
+                                d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                        </svg>
+                        74 Bartın, Şadırvan Cad.</a></li>
+            </ul>
+            <ul class="nav d-none d-md-flex">
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                            width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </a></li>
+
+
+
+            </ul>
+        </div>
+    </nav>
+    <header class="p-3 bg-white ">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="../../index.html"
+                    class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-5">
+                    <svg class="bi me-2" width="51" height="34" viewBox="0 0 51 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.0712891 26.2722C4.28819 25.5221 8.42944 24.6963 12.5959 24.0723C18.8677 23.1394 24.7108 20.8387 30.6485 18.7839C34.0081 17.624 37.5191 16.7227 41.0363 16.2751C43.5324 15.9537 46.1672 16.4768 48.7074 16.8298C50.3148 17.0567 50.34 17.3152 50.0059 19.1179C44.5851 17.5925 39.1895 17.8636 33.8254 19.4646C39.2462 18.5695 44.6481 18.0275 49.9492 20.2525C49.2243 23.7004 47.4972 26.3982 44.8876 28.5161C41.2002 31.5039 36.977 33.3192 32.2432 33.5777C26.148 33.9117 21.6474 31.0122 18.3823 26.0389C17.9033 25.3078 17.4179 25.0367 16.5733 25.0745C13.2325 25.2132 10.0494 25.9444 6.97336 27.2555C5.59294 27.848 4.16211 28.3838 2.69975 28.7052C0.884402 29.1275 0.0838956 28.3207 0.0712891 26.2722Z"
+                            fill="#F65F5F" />
+                        <path
+                            d="M22.4733 20.3155C21.9312 18.601 21.5089 16.2184 22.7128 14.34C23.1477 13.6592 23.5133 13.4827 23.9104 12.9091C24.6857 11.7745 25.1522 9.68814 23.4314 5.50276C24.0239 5.92508 24.8055 6.60583 25.3413 7.65218C25.9527 8.8435 25.8708 9.76377 26.0599 10.7597C26.2805 11.9384 26.9423 13.5395 28.9278 15.2981C28.7198 14.6551 28.4992 13.7601 28.4488 12.6696C28.4047 11.598 28.537 10.6904 28.6883 10.0411C28.9152 10.703 29.2808 11.5476 29.886 12.4301C30.2894 13.0163 30.7054 13.489 31.0836 13.8609C30.5604 13.0919 29.867 11.8817 29.4132 10.2743C29.0665 9.04521 28.6883 6.99033 29.1737 4.53835C29.5897 2.43936 30.4721 0.895067 31.0836 0C31.0394 0.769001 31.0583 2.23766 31.8021 3.81979C32.943 6.25916 35.0231 7.33702 35.6219 7.63958C37.1221 8.39597 37.431 7.98626 40.3998 8.8372C42.7194 9.49905 43.8792 9.83312 44.9382 10.7471C45.5433 11.264 46.9489 12.6885 47.3271 15.7645C45.9656 15.5376 44.1251 15.3359 41.9505 15.4052C39.5174 15.4809 37.6894 15.8591 36.454 16.1238C34.563 16.5272 33.0439 17.0315 30.0057 18.0337C28.2408 18.6199 26.9801 19.08 24.7488 19.7041C23.797 19.9814 23.0091 20.1831 22.4733 20.3155Z"
+                            fill="#FDCE77" />
+                        <path
+                            d="M37.3932 15.6891C37.4247 15.79 38.8114 15.2353 40.7402 14.9706C43.0346 14.6554 45.0201 14.8949 46.4762 15.2101C46.4888 14.1637 46.1926 13.4389 45.9972 13.0607C45.4866 12.0584 44.6987 11.5037 43.8477 10.9112C43.1859 10.4448 42.5871 10.1422 42.1774 9.95312C42.7321 10.3881 43.4191 11.0121 44.0872 11.863C44.7806 12.7455 45.2281 13.5901 45.5181 14.252C44.5537 14.1007 43.1291 13.9809 41.4588 14.252C39.1959 14.6302 37.3553 15.5757 37.3932 15.6891Z"
+                            fill="#0D0D0D" />
+                    </svg>
+                    <span class="brand-name fw-bold text-dark">final</span>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="../../index.html" class="nav-link px-2 text-dark me-3">Anasayfa</a></li>
+                    <li><a href="../../menu/index.html" class="nav-link px-2 text-dark selected-item me-3">Menü</a></li>
+                    <li><a href="../../about-us/index.html" class="nav-link px-2 text-dark me-3">Hakkımızda</a></li>
+                    <li><a href="../../shop/index.html" class="nav-link px-2 text-dark me-3">Ürünler</a></li>
+                    <li><a href="../../contact/index.html" class="nav-link px-2 text-dark me-3">İletişim</a></li>
+                </ul>
+
+                <div class="text-end">
+                    <div class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="me-2" width="64" height="64" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="18" cy="17" r="2" />
+                            <path
+                                d="M5 16v1a2 2 0 0 0 4 0v-5h-3a3 3 0 0 0 -3 3v1h10a6 6 0 0 1 5 -4v-5a2 2 0 0 0 -2 -2h-1" />
+                            <line x1="6" y1="9" x2="9" y2="9" />
+                        </svg>
+                        <div class="d-flex flex-column text-start">
+                            <span class="fw-light">Ara ve siparis ver</span>
+                            <h5 class="fw-bold">+90 555 555 5555</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- BREADCRUMB -->
+    <section id="breadcrumb">
+        <div class="container py-5">
+            <h2 class="fw-bold text-center pt-3 display-5">Tavuk Menü</h2>
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb" style="justify-content: center;">
+                    <li class=" breadcrumb-item"><a href="#" class="text-dark">Anasayfa</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Tavuk</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- BREADCRUMB -->
+
+    <!-- PRODUCTS -->
+    <div class="container my-5">
+        <div class="products mb-5">
+            <div class="row">
+                <div class="product col-xl-3 col-lg-4 col-md-12 d-flex justify-content-center">
+                    <div class="product-card border border-secondary rounded-5 p-3 mb-3 position-relative">
+                        <span class="badge bg-dark position-absolute">İndirim!</span>
+                        <div class="product-image d-flex flex-column">
+                            <img src="../../img/product1.png" alt="BBQ chicken breast">
+                        </div>
+                        <h5 class="fw-bold">BBQ Chicken Breast</h5>
+                        <p>Tavuk göğsünü barbeküde ateşle buluşturunca oluşan müthiş lezzet.</p>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="fw-bold text-secondary" style="gap:1rem">
+                                <p class="m-0 p-0" style="text-decoration:line-through">₺65.00</p>
+                                <div class="text-warning" style="font-size: 1.5rem;">₺51.00</div>
+                            </div>
+                            <div class="btn btn-warning">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-xl-3 col-lg-4 col-md-12 d-flex justify-content-center">
+                    <div class="product-card border border-secondary rounded-5 p-3 mb-3">
+                        <div class="product-image d-flex flex-column">
+                            <img src="../../img/product14.png" alt="Tagliatelle Molto">
+                        </div>
+                        <h5 class="fw-bold">Tagliatelle Molto</h5>
+                        <p>Lezzet patlaması, mükemmel soslu İtalyan mutfağından makarna!</p>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="fw-bold text-secondary" style="gap:1rem">
+                                <div class="text-warning" style="font-size: 1.5rem;">₺29.99</div>
+                            </div>
+                            <div class="btn btn-warning">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-xl-3 col-lg-4 col-md-12 d-flex justify-content-center">
+                    <div class="product-card border border-secondary rounded-5 p-3 mb-3">
+                        <div class="product-image d-flex flex-column">
+                            <img src="../../img/product2.png" alt="Apricot Chicken">
+                        </div>
+                        <h5 class="fw-bold">Apricot Chicken</h5>
+                        <p>Pizzayı bir de kayısı ve tavuk karışımı ile deneyin.</p>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="fw-bold text-secondary" style="gap:1rem">
+                                <div class="text-warning" style="font-size: 1.5rem;">₺64.99</div>
+                            </div>
+                            <div class="btn btn-warning">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product col-xl-3 col-lg-4 col-md-12 d-flex justify-content-center">
+                    <div class="product-card border border-secondary rounded-5 p-3 mb-3">
+                        <div class="product-image d-flex flex-column">
+                            <img src="../../img/product18.png" alt="Penne Funghi Chicken">
+                        </div>
+                        <h5 class="fw-bold">Penne Funghi Chicken</h5>
+                        <p>Özenle seçilmiş sebze, meyve ve makarnanın tavukla eşsiz buluşması!</p>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <div class="fw-bold text-secondary" style="gap:1rem">
+                                <div class="text-warning" style="font-size: 1.5rem;">₺38.00</div>
+                            </div>
+                            <div class="btn btn-warning">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRODUCTS -->
+
+    <!-- FOOTER -->
+    <section class="footer bg-dark text-white">
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+                <div class="col mb-3">
+                    <a href="../../index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <svg class="bi me-2" width="51" height="34" viewBox="0 0 51 34" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.0712891 26.2722C4.28819 25.5221 8.42944 24.6963 12.5959 24.0723C18.8677 23.1394 24.7108 20.8387 30.6485 18.7839C34.0081 17.624 37.5191 16.7227 41.0363 16.2751C43.5324 15.9537 46.1672 16.4768 48.7074 16.8298C50.3148 17.0567 50.34 17.3152 50.0059 19.1179C44.5851 17.5925 39.1895 17.8636 33.8254 19.4646C39.2462 18.5695 44.6481 18.0275 49.9492 20.2525C49.2243 23.7004 47.4972 26.3982 44.8876 28.5161C41.2002 31.5039 36.977 33.3192 32.2432 33.5777C26.148 33.9117 21.6474 31.0122 18.3823 26.0389C17.9033 25.3078 17.4179 25.0367 16.5733 25.0745C13.2325 25.2132 10.0494 25.9444 6.97336 27.2555C5.59294 27.848 4.16211 28.3838 2.69975 28.7052C0.884402 29.1275 0.0838956 28.3207 0.0712891 26.2722Z"
+                                fill="#F65F5F" />
+                            <path
+                                d="M22.4733 20.3155C21.9312 18.601 21.5089 16.2184 22.7128 14.34C23.1477 13.6592 23.5133 13.4827 23.9104 12.9091C24.6857 11.7745 25.1522 9.68814 23.4314 5.50276C24.0239 5.92508 24.8055 6.60583 25.3413 7.65218C25.9527 8.8435 25.8708 9.76377 26.0599 10.7597C26.2805 11.9384 26.9423 13.5395 28.9278 15.2981C28.7198 14.6551 28.4992 13.7601 28.4488 12.6696C28.4047 11.598 28.537 10.6904 28.6883 10.0411C28.9152 10.703 29.2808 11.5476 29.886 12.4301C30.2894 13.0163 30.7054 13.489 31.0836 13.8609C30.5604 13.0919 29.867 11.8817 29.4132 10.2743C29.0665 9.04521 28.6883 6.99033 29.1737 4.53835C29.5897 2.43936 30.4721 0.895067 31.0836 0C31.0394 0.769001 31.0583 2.23766 31.8021 3.81979C32.943 6.25916 35.0231 7.33702 35.6219 7.63958C37.1221 8.39597 37.431 7.98626 40.3998 8.8372C42.7194 9.49905 43.8792 9.83312 44.9382 10.7471C45.5433 11.264 46.9489 12.6885 47.3271 15.7645C45.9656 15.5376 44.1251 15.3359 41.9505 15.4052C39.5174 15.4809 37.6894 15.8591 36.454 16.1238C34.563 16.5272 33.0439 17.0315 30.0057 18.0337C28.2408 18.6199 26.9801 19.08 24.7488 19.7041C23.797 19.9814 23.0091 20.1831 22.4733 20.3155Z"
+                                fill="#FDCE77" />
+                            <path
+                                d="M37.3932 15.6891C37.4247 15.79 38.8114 15.2353 40.7402 14.9706C43.0346 14.6554 45.0201 14.8949 46.4762 15.2101C46.4888 14.1637 46.1926 13.4389 45.9972 13.0607C45.4866 12.0584 44.6987 11.5037 43.8477 10.9112C43.1859 10.4448 42.5871 10.1422 42.1774 9.95312C42.7321 10.3881 43.4191 11.0121 44.0872 11.863C44.7806 12.7455 45.2281 13.5901 45.5181 14.252C44.5537 14.1007 43.1291 13.9809 41.4588 14.252C39.1959 14.6302 37.3553 15.5757 37.3932 15.6891Z"
+                                fill="#0D0D0D" />
+                        </svg>
+                        <span class="brand-name fw-bold text-white">final</span>
+                    </a>
+                    <p>&copy; 2022 Inc. Tüm hakları saklıdır.</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="fw-bold text-warning">Menüler</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="../../product-category/combo/index.html"
+                                class="nav-link p-0 text-white">Kombo</a></li>
+                        <li class="nav-item mb-2"><a href="../../product-category/kids-menu/index.html"
+                                class="nav-link p-0 text-white">Çocuk</a></li>
+                        <li class="nav-item mb-2"><a href="../../product-category/pizza/index.html"
+                                class="nav-link p-0 text-white">Pizza</a></li>
+                        <li class="nav-item mb-2"><a href="../../product-category/burger/index.html"
+                                class="nav-link p-0 text-white">Burger</a></li>
+                        <li class="nav-item mb-2"><a href="../../product-category/chicken/index.html"
+                                class="nav-link p-0 text-white">Tavuk</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="fw-bold text-warning">Spesiyaller</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">BBQ
+                                Chicken Breast</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html"
+                                class="nav-link p-0 text-white">Tagliatelle Molto</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">Summer
+                                Pizza</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html"
+                                class="nav-link p-0 text-white">Tropicana Juice</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">Grand
+                                Italiano</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5 class="fw-bold text-warning">İndirimliler</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">BBQ
+                                Chicken Breast</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">Grand
+                                Italiano</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">Trio
+                                Cheese</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html" class="nav-link p-0 text-white">Summer
+                                Pizza</a></li>
+                        <li class="nav-item mb-2"><a href="../../shop/index.html"
+                                class="nav-link p-0 text-white">Supreme Pizza</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <!-- FOOTER -->
+
+
+    <script src="../../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // alert(document.body.scrollHeight);
+        // alert(document.querySelector('header').scrollHeight);
+        // alert(document.querySelector('#top-bar').scrollHeight);
+    </script>
+
+</body>
+
+</html>
